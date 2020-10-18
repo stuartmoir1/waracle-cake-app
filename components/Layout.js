@@ -1,7 +1,10 @@
+import Header from './Header'
+
 export const siteTitle = 'Cakes'
 
 export const Layout = props => (
   <div>
+    <Header />
     <div className='layout'>{props.children}</div>
     <style jsx global>{`
       body {
