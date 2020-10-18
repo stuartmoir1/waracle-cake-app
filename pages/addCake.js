@@ -73,7 +73,7 @@ const AddCake = props => {
           <input
             disabled={!name || !comment || !yumFactor || !imageUrl || comment.length < 5 || isCake}
             type='submit'
-            value='Create'
+            value='Add'
           />
           <a className='cancel' href='#' onClick={() => Router.push('/')}>
             or Cancel
