@@ -7,7 +7,7 @@ async function main() {
     data: {
       name: 'Carrot Cake',
       comment: 'Three layers of moist sponge, walnuts, and freshly grated carrots; spiced with cinnamon, ground ginger and nutmeg.',
-      imageUrl: 'images/carrot_cake.jpg',
+      imageUrl: '/images/carrot_cake.jpg',
       yumFactor: 2
     },
   })
@@ -15,7 +15,7 @@ async function main() {
     data: {
       name: 'Vanilla Cake',
       comment: 'You can’t get more classic than this – layers of light, moist yellow vanilla sponge, with plenty of vanilla or chocolate buttercream frosting.',
-      imageUrl: 'images/vanilla_cake.jpg',
+      imageUrl: '/images/vanilla_cake.jpg',
       yumFactor: 3
     },
   })
@@ -23,7 +23,7 @@ async function main() {
     data: {
       name: 'Red Velvet Cake',
       comment: "An all-time favourite! Deep red vanilla cake with a light taste of chocolate, topped with cream cheese frosting. This decadent layer cake is sure to please.",
-      imageUrl: 'images/red_velvet_cake.jpg',
+      imageUrl: '/images/red_velvet_cake.jpg',
       yumFactor: 4
     },
   })
