@@ -21,8 +21,8 @@ async function main() {
   })
   const newCake3 = await prisma.cake.create({
     data: {
-      name: 'Vegan Red Velvet Cake',
-      comment: 'Going vegan doesn’t mean going without, especially not where our bestselling cake is concerned.',
+      name: 'Red Velvet Cake',
+      comment: 'Our customers’ all-time favourite. Deep red vanilla cake with a light taste of chocolate, topped with cream cheese frosting. This decadent layer cake is sure to please.',
       imageUrl: 'images/red_velvet_cake.jpg',
       yumFactor: 4
     },
