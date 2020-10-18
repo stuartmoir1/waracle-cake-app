@@ -10,7 +10,7 @@ const Cakes = props => {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div className='page'>
+      <div>
         <main>
           {props.cakes.map(cake => (
             <div key={cake.id} className='cake'>
