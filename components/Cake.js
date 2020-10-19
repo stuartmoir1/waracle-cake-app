@@ -11,7 +11,7 @@ const Cake = ({ cake }) => (
         padding: 10px 0 0 10px;
       }
       img {
-        width: 400px;
+        width: 300px;
       }
     `}</style>
   </>
