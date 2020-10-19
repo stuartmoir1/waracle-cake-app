@@ -3,7 +3,7 @@
 **Here we go…**
 -   Source control - Git, GitHub
 -   Build & package tooling - npm/ npx
--   Framework choices - Next.js
+-   Framework choices - Next.js (based on React, Webpack & Babel)
 -   Deployment - Vercel
 -   Resilience - built into the code
 -   Backend technologies - Prisma, SQLIte
